@@ -107,6 +107,7 @@ body {
 .content {
     grid-row: 3 / 4;
     background-color: #ada8b6;
+    padding-bottom: 60px;
 }
 
 .side-title img[src^="svgs"] {
@@ -179,7 +180,7 @@ body {
 
 .content {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
 }
 
 .left-content {
@@ -189,8 +190,8 @@ body {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
-    grid-template-rows: repeat(auto-fill, 150px);
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit, 200px);
     padding: 15px;
     gap: 15px;
 }
@@ -308,3 +309,42 @@ button {
     display: grid;
     align-items: end;
 }
+
+.info,
+.friends {
+    margin: 15px 30px 0px 15px;
+    display: grid;
+    gap: 10px;
+}
+
+.info {
+    padding: 25px;
+
+}
+
+.maintenance,
+.community {
+    border-bottom: 1px solid #ada8b6;
+}
+
+.info p {
+    font-size: 12px;
+}
+
+.info h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.user {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 10px;
+}
+
+.friends {
+    padding: 20px;
+}
+
+
+
