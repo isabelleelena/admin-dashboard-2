@@ -83,6 +83,9 @@ body {
     flex-direction: column;
     gap: 60px;
     height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
 }
 
 .header {
@@ -119,6 +122,7 @@ body {
 .top-menu,
 .bottom-menu {
     display: grid;
+    gap: 10px;
 }
 
 .top-menu {
@@ -199,4 +203,39 @@ h3 {
 a, 
 p {
     font-family: 'Recoleta', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.side-title h1 {
+    color: #eff8e2;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #eff8e2;
+}
+
+.top-menu div,
+.bottom-menu div {
+    display: flex;
+    align-items: center;
+}
+
+.side-menu img {
+    filter: brightness(0) saturate(100%) invert(99%) sepia(3%) saturate(1052%) hue-rotate(27deg) brightness(100%) contrast(96%);
+}
+
+img {
+    padding-right: 15px;
 }
