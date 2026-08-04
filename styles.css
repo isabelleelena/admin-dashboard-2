@@ -305,6 +305,7 @@ input[type="search"] {
 }
 
 button {
+    font-family: 'Recoleta', sans-serif;
     border: 0px;
     border-radius: 13px;
     height: 30px;
