@@ -207,13 +207,14 @@ body {
 .top-content, 
 .bottom-content {
     display: grid;
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 60px 300px;
 }
 
 .card,
 .info,
 .friends {
     background-color: #eff8e2;
+    box-shadow: 5px 5px 5px #573280;
 }
 
 h1,
@@ -319,11 +320,12 @@ button {
     margin: 15px 30px 0px 15px;
     display: grid;
     gap: 10px;
+    border-radius: 8px;
 }
 
 .info {
     padding: 25px;
-
+    grid-template-rows: repeat(3, 75px);
 }
 
 .maintenance,
@@ -355,6 +357,7 @@ button {
     display: grid;
     grid-template-columns: 40px 1fr;
     gap: 5px;
+    align-items: center;
 }
 
 .friends {
@@ -408,6 +411,10 @@ h4  {
 
 .message {
     overflow: scroll;
+}
+
+.data {
+    font-size: 12px;
 }
 
 
