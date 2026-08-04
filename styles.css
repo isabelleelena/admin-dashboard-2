@@ -64,6 +64,13 @@ black: 23022e
 @font-face {
     font-family: 'Recoleta';
     src: url('fonts/Recoleta-RegularDEMO.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Recoleta';
+    src: url('fonts/Recoleta-Bold.woff2') format('woff2');
+    font-weight: 700;
 }
 
 body {
@@ -201,7 +208,7 @@ body {
 
 .right-content {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 360px 360px;
 }
 
 .top-content, 
@@ -414,6 +421,19 @@ h4  {
 
 .data {
     font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h4, 
+.name {
+    font-family: 'Recoleta', sans-serif;
+    font-weight: 700;
 }
 
 
